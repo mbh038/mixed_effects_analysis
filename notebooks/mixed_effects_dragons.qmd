@@ -1,0 +1,22 @@
+---
+title: "Mixed Effects analysis - dragons example"
+format: html
+editor: visual
+---
+
+## Load packages
+```{r}
+library(tidyverse)
+library(here)
+library(lme4)
+theme_set(theme_minimal(base_size = 13))
+```
+
+## Load data
+```{r}
+load(here("data","dragons.RData"))
+head(dragons)
+```
+
+
+
